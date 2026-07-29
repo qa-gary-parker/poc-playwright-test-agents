@@ -1,0 +1,15 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=f1e5] [cursor=pointer]
+    - generic [ref=f1e7]:
+      - heading "Dynamically Loaded Page Elements" [level=3] [ref=f1e8]
+      - 'heading "Example 1: Element on page that is hidden" [level=4] [ref=f1e9]'
+      - generic [ref=f1e17]: Loading...
+  - generic [ref=f1e13]:
+    - separator [ref=f1e14]
+    - generic [ref=f1e15]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=f1e16] [cursor=pointer]:
+        - /url: http://elementalselenium.com/
