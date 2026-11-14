@@ -1,0 +1,42 @@
+{
+  "S1Result": [
+    "If you plan to let Playwright's test agents write your tests, here is what ours cost.",
+    "Three agents wrote seven tests. It took forty six minutes. All seven pass.",
+    "So would you keep them? Here is what is good, and what to watch."
+  ],
+  "S2Setup": [
+    "Playwright ships three test agents.",
+    "The planner explores the app and writes a test plan.",
+    "The generator turns the plan into test code, and checks every locator in a live browser.",
+    "The healer repairs tests that broke.",
+    "I ran them on a public demo app, and compared the result with six tests written in one pass, with no browser."
+  ],
+  "S3Numbers": [
+    "The planner took under three minutes. The generator took forty three minutes.",
+    "The one pass suite has eighty lines of test code. The generated suite has two hundred and twenty three.",
+    "The one pass tests make about two and a half checks each. The generated tests make about nine.",
+    "Both suites pass."
+  ],
+  "S4Good": [
+    "The live browser paid off.",
+    "One page keeps hidden loading elements around. The generator saw them, and targeted the visible one.",
+    "The plan also told it to type into a disabled input. That step would hang.",
+    "The generator checked that the input is disabled instead."
+  ],
+  "S5Healer": [
+    "Then the healer. I gave it a login test with six stale locators.",
+    "It repaired all six, in under two minutes.",
+    "But look at what came back. The stale ids came back as correct ids, not as role locators.",
+    "And it matched one button name with a leading space.",
+    "The healer repairs. It does not improve."
+  ],
+  "S6Verdict": [
+    "So use the planner and the generator to scaffold tests for an app you do not know. Budget the time.",
+    "Review the checks. Nine per test is nine things to maintain.",
+    "Let the healer propose fixes in a pull request. Do not let it repair tests silently in your pipeline.",
+    "One caveat. This is one demo app, and one run. Measure on your own app."
+  ],
+  "S7EndCard": [
+    "The tests, the plan and the numbers are in the public repo. The links are in the description."
+  ]
+}
