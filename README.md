@@ -12,6 +12,7 @@ broken locators in the style it finds them, it does not improve them.
 
 > Exploratory PoC, throwaway by default. Written up in
 > [Hands-on with Playwright Test Agents](https://garyparker.dev/blog/hands-on-with-playwright-test-agents).
+> Two-minute video: [youtu.be/eWpzpwyMTkk](https://youtu.be/eWpzpwyMTkk).
 
 ## Method
 
